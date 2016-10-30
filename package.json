@@ -8,6 +8,9 @@
     "name": "nick",
     "email": ""
   },
+  "scripts": {
+    "start": "node server"
+  },
   "dependencies": {
     "express": "^4.13.3"
   },
