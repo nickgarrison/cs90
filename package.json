@@ -1,22 +1,12 @@
 {
-  "name": "helloworld",
+  "name": "application-name",
+  "version": "2.0.0",
   "private": true,
-  "version": "0.0.0",
-  "description": "helloworld",
-  "main": "server.js",
-  "author": {
-    "name": "nick",
-    "email": ""
-  },
   "scripts": {
     "start": "node server"
-  },
-  "dependencies": {
-    "express": "^4.13.3"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-zip": "^3.0.2",
-    "minimist": "^1.2.0"
+  },  
+"license": "Apache",
+"engines": {
+    "node": "~0.10.0 || ~4.2.0"
   }
 }
